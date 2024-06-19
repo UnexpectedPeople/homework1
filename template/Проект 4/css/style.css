@@ -1,0 +1,216 @@
+body {
+  background: #181E34;
+  line-height: 150%;
+  color: white;
+  font-family: "Monserat", "Arial", sans-serif;
+}
+
+/* ================================================================= */
+
+.header {
+  padding: 30px 0 36px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 15px;
+  height: 100%;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  margin-left: auto;
+}
+
+.header-list {
+  display: flex;
+}
+
+.header-items {
+  margin-right: 30px;
+}
+
+.header-button {
+  border-radius: 100px;
+  padding: 14px 30px;
+  background: white;
+  color: #2776AE;
+  font-weight: 500;
+}
+
+/* ============================================================================================================== */
+
+.hero {
+  padding: 120px 0;
+  background: url("../logo/big-fone.jpg") 10% 50% / cover no-repeat;
+}
+
+.hero-title {
+  font-weight: 600;
+  font-size: 40px;
+  text-transform: uppercase;
+  line-height: 49px;
+  text-align: center;
+  margin-bottom: 60px;
+
+}
+
+.hero-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-texts {
+  max-width: 380px;
+  min-height: 159px;
+}
+
+.paragraph {
+  margin-bottom: 15px;
+}
+
+span {
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #01a2cb;
+}
+
+.hero-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-button1, .hero-button2 {
+  border-radius: 100px;
+  padding: 18px 30px;
+  width: 320px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-button1 {
+  background: linear-gradient(180deg, #00a4cc 0%, #2766ae 100%);
+  margin-bottom: 10px;
+}
+
+.hero-button2 {
+  background: linear-gradient(129deg, #00a4cc 0%, #2766ae 100%);
+}
+
+.hero-button2 img {
+  margin-left: 4px;
+}
+
+/* ======================================================================================================================================================================================= */
+
+.cards {
+  padding: 120px 0;
+}
+
+.cards-title {
+  font-weight: 600;
+  font-size: 40px;
+  text-transform: uppercase;
+  line-height: 49px;
+  text-align: center;
+}
+
+.cards-text {
+  margin-top: 15px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.cards-flex {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: -28px;
+  padding-bottom: 30px;
+  margin: 0 -14px;
+}
+
+.cards-flex-item {
+  padding: 0 14px;
+  margin-bottom: 28px;
+  flex: 0 0 25%;
+}
+
+.cards-flex-inner {
+  border-radius: 16px;
+  padding: 28px;
+  box-shadow: 4px 4px 13px 0 rgba(5, 13, 41, 0.76);
+  background: #197cb8;
+  border: 2px solid #176bae;
+}
+
+.cards-flex-title {
+  font-weight: 600;
+  font-size: 22px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.cards-flex-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+}
+
+.cards-button1 {
+  border-radius: 100px;
+  padding: 18px 30px;
+  background: linear-gradient(180deg, #00a4cc 0%, #2766ae 100%);
+  text-align: center;
+  display: block;
+  max-width: 436px;
+  margin: 0 auto;
+}
+
+/* ====================================================================================================================================================== */
+
+.footer {
+  border-top: 1px solid #323952;
+  padding: 60px 0;
+}
+
+.footer-inner {
+  display: flex;
+}
+
+.footer-desk a {
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.footer-desk {
+  max-width: 267px;
+  margin-right: auto;
+}
+
+.footer-colomn1 {
+  max-width: 204px;
+  width: 100%;
+  margin-right: 28px;
+}
+
+.footer-title {
+  font-weight: 600;
+  font-size: 22px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+
+.footer-colomn2 {
+  max-width: 204px;
+  width: 100%;
+}
